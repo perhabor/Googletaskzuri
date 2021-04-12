@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:  20%;
+   
+    margin: auto;
+    padding: 2em;
+}
+
+ a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+nav img{
+    height: 20px;
+}
+main{
+    width: 50%;
+    margin: 6.9em auto;
+    text-align: center;
+
+}
+
+input{
+width: 80%;
+padding: 1cm;
+border-radius: 20px;
+border: 1px solid gainsboro;
+}
+
+.btn-container{
+    margin-top: 1cm;
+
+}
+
+.btn-container button{
+    padding: 1em;
+    border: none;
+
+}
+footer{
+    background-color:rgba(rgb(66, 151, 119), green, blue, alpha);
+
+}
+
+.footer-top{
+    padding: 1em;
+}
+
+.footer-bottom{
+padding: 1em;
+display: flex;
+justify-content: space-between;
+border-top: 1pm solid gray;
+}
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
